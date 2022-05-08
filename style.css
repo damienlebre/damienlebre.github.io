@@ -187,6 +187,10 @@ margin-top: 1em;
     line-height: 1em;  
       
 }
+.dowload{
+    display: flex;
+    justify-content: center;
+}
 /* Main column */
 .main {
     flex: 65%;
