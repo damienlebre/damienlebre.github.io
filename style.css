@@ -187,14 +187,13 @@ margin-top: 1em;
     line-height: 1em;  
       
 }
-
 .dowload, .dowload a{
     display: flex;
     justify-content: center;
     color: #fff;
 }
 .dowload img{
-    margin-right: 5px;
+    margin-right: 1em;
     margin-top: -3px;
 }
 /* Main column */
