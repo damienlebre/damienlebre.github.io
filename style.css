@@ -187,10 +187,7 @@ margin-top: 1em;
     line-height: 1em;  
       
 }
-.dowload{
-    position: absolute;
-    bottom: 0px;
-}
+
 .dowload, .dowload a{
     display: flex;
     justify-content: center;
