@@ -188,9 +188,17 @@ margin-top: 1em;
       
 }
 .dowload{
+    position: absolute;
+    bottom: 0px;
+}
+.dowload, .dowload a{
     display: flex;
     justify-content: center;
     color: #fff;
+}
+.dowload img{
+    margin-right: 5px;
+    margin-top: -3px;
 }
 /* Main column */
 .main {
