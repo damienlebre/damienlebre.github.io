@@ -190,6 +190,7 @@ margin-top: 1em;
 .dowload{
     display: flex;
     justify-content: center;
+    color: #fff;
 }
 /* Main column */
 .main {
