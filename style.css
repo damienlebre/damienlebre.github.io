@@ -192,6 +192,8 @@ margin-top: 1em;
     flex: 65%;
     background-color: white;
     padding: 20px;
+    display: flex;
+    flex-direction: column;
 }
 .titre-experiences h2{
     font-family: 'Chonburi', cursive;    
@@ -277,6 +279,33 @@ margin-top: 1em;
     width: 48px;
     height: 48px;
 }
+/* post-it */
+.loisirs{   
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+   background: linear-gradient(135deg, #ffff88 81%,#ffff88 82%,#ffff88 82%,#ffffc6 100%);
+   box-shadow: 2px 4px 6px #444;      
+   transform: rotate(18deg);    
+   border-bottom-right-radius: 60px 10px;
+   max-width: 340px;    
+   align-self: end;     
+   margin-right: 75px;      
+}
+.loisirs h2{
+    font-family: 'Reenie Beanie', cursive;
+    text-align: center;
+    background-color:greenyellow;
+}
+.liste-loisirs{
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 1.5em;
+    margin-top: 5px ;
+    column-count: 2;
+    column-gap: 45px;    
+}
+
 /* Footer */
 .footer {
     padding: 20px;
