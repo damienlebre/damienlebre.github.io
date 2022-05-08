@@ -1,0 +1,306 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    background: linear-gradient(-90deg, #6E7496,  #363A4E);    
+}
+/* retirer puces toutes les listes */
+ul{
+    list-style: none;
+}
+ul span{
+    font-weight: bold;
+}
+.header {
+    padding: 60px;
+    text-align: center;
+    color: white;
+}
+.nom{   
+    font-family: 'Chonburi', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;       
+    color: #E5E5E5;     
+     /* effet 3d  par ThatGuySam https://codepen.io/ThatGuySam/pen/CytDA */
+    text-shadow:
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);;
+}  
+.metier{
+    font-family: 'Chonburi', cursive;    
+    color: #E5E5E5;        
+     /* effet 3d  par ThatGuySam https://codepen.io/ThatGuySam/pen/CytDA */
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+}
+.presentation {
+    display: flex;
+    /* background: linear-gradient(-90deg, #6E7496,  #363A4E); */
+    padding: 15px 15px;    
+    font-family: 'Sriracha', cursive;
+    text-indent: 2em;
+}
+/* Column container */
+.row {  
+    display: flex;
+    flex-wrap: wrap;
+}
+/* Create two unequal columns */
+/* Sidebar/left column */
+.side {
+    flex: 35%;
+    max-width: 405px;
+    /* background: linear-gradient(-90deg, #6E7496,  #363A4E); */
+    padding: 20px;
+}
+/* Imitation of an image */
+.container{
+display: flex;
+justify-content: center;
+}
+.portrait {
+    /* text-align: center;
+    margin-left: auto;
+    margin-right: auto; */
+    background-image: url(assets/img/n.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 200px;    
+    min-height: 200px;
+    border-radius: 20px; 
+    -webkit-box-shadow: 8px 10px 32px 5px #000000; 
+    box-shadow: 8px 10px 32px 5px #000000;
+}
+.titre-contact h2{  
+    font-family: 'Chonburi', cursive;   
+    color: #363A4E;
+    background-color: #E5E5E5;
+    padding: 5px 20px 5px 20px;
+    margin-top: 3em;
+    box-shadow: 11px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;    
+     /* effet 3d  par ThatGuySam https://codepen.io/ThatGuySam/pen/CytDA */
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15); 
+    max-width: 175px;  
+    background-size: cover;    
+} 
+.reseaux ul{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.reseaux ul li, .liste-formations ul li{
+    margin-right: 1em;
+}
+.liste-contact, .liste-formations{   
+    margin-top: 2em; 
+    font-family: 'Sriracha', cursive;    
+    color: #E5E5E5; 
+    line-height: 1em;
+}
+.liste-contact li{
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+}  
+.liste-contact li img{
+    margin-right: 15px;
+} 
+.liste-contact li a{
+    text-decoration: none;
+}
+.titre-formations h2{  
+    font-family: 'Chonburi', cursive;   
+    color: #363A4E;
+    background-color: #E5E5E5;
+    padding: 5px 20px 5px 20px;
+    margin-top: 3em;
+    margin-bottom: 3em; 
+    box-shadow: 11px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;    
+     /* effet 3d  par ThatGuySam https://codepen.io/ThatGuySam/pen/CytDA */
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15); 
+    max-width: 212px;  
+    background-size: cover;    
+}
+.liste-formations li, .certifications{
+margin-top: 1em;
+}
+.liste-formations li img{
+    margin-left: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+} 
+.certifications{      
+    margin-top: 3em; 
+    margin-bottom: 3em; 
+    font-family: 'Sriracha', cursive;    
+    color: #E5E5E5; 
+    line-height: 1em;  
+      
+}
+/* Main column */
+.main {
+    flex: 65%;
+    background-color: white;
+    padding: 20px;
+}
+.titre-experiences h2{
+    font-family: 'Chonburi', cursive;    
+    color: #363A4E;
+    background-color: #E5E5E5;
+    max-width: 525px;
+     padding: 5px 20px 5px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    box-shadow: 11px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;    
+     /* effet 3d  par ThatGuySam https://codepen.io/ThatGuySam/pen/CytDA */
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+    text-align:center;
+}
+.liste-experiences{ 
+    font-family: 'Sriracha', cursive;    
+    /* padding: 5px 20px 5px 20px; */
+    display: flex;
+    justify-content: center;     
+}
+
+.titre-competences h2{
+    font-family: 'Chonburi', cursive;    
+    color: #363A4E;
+    background-color: #E5E5E5;
+    max-width: 525px;
+     padding: 5px 20px 5px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+    margin-top: 3em;
+    box-shadow: 11px 6px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;    
+     /* effet 3d  par ThatGuySam https://codepen.io/ThatGuySam/pen/CytDA */
+    text-shadow: 
+    0 1px 0 #ccc, 
+    0 2px 0 #c9c9c9, 
+    0 3px 0 #bbb, 
+    0 4px 0 #b9b9b9, 
+    0 5px 0 #aaa, 
+    0 6px 1px rgba(0,0,0,.1), 
+    0 0 5px rgba(0,0,0,.1), 
+    0 1px 3px rgba(0,0,0,.3), 
+    0 3px 5px rgba(0,0,0,.2), 
+    0 5px 10px rgba(0,0,0,.25), 
+    0 10px 10px rgba(0,0,0,.2), 
+    0 20px 20px rgba(0,0,0,.15);
+    text-align:center;
+}
+
+.liste-competences{        
+    font-family: 'Sriracha', cursive;           
+    padding: 5px 20px 5px 20px;    
+}
+.techno{
+    width: 50%;
+    border-left:3px  lightgray solid;    
+}
+.techno  ul {
+    width: 100%;
+    column-count: 3;    
+}
+.liste-competences, .techno{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;    
+}
+.techno img{
+    width: 48px;
+    height: 48px;
+}
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
+/* If a screen is 600px or less wide, stack the columns on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .row, .navbar {   
+        flex-direction: column;
+    }
+    .container{
+        margin-left: auto;
+        margin-right: auto;
+    }   
+    .liste-competences, .techno {
+        border: none;        
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    } 
+    .techno ul{
+        width: 200%;
+        column-count: 3;
+        column-gap: 1em;
+    }
+}
