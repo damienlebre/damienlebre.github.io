@@ -249,13 +249,20 @@ margin-top: 1em;
 }
 .techno  ul {
     width: 100%;
-    column-count: 3;    
+    column-count: 3;   
+    column-gap: 1em;
 }
-.liste-competences, .techno{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;    
-}
+.liste-competences, .techno {
+        display: flex;
+        justify-content: space-around;
+        align-items: center; 
+        border: none;        
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+    } 
+   
+
 .techno img{
     width: 48px;
     height: 48px;
@@ -301,15 +308,5 @@ margin-top: 1em;
         margin-left: auto;
         margin-right: auto;
     }   
-    .liste-competences, .techno {
-        border: none;        
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-    } 
-    .techno ul{
-        width: 200%;
-        column-count: 3;
-        column-gap: 1em;
-    }
+    
 }
