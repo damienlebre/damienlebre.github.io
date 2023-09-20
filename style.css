@@ -243,6 +243,9 @@ margin-top: 1em;
     font-family: 'Sriracha', cursive;           
     padding: 5px 20px 5px 20px;    
 }
+.liste-competences ul{
+    margin-right: 1.5em;
+}
 .techno{
     width: 50%;
     border-left:3px  lightgray solid;    
@@ -255,7 +258,7 @@ margin-top: 1em;
 .liste-competences, .techno {
         display: flex;
         justify-content: space-around;
-        align-items: center;
+        align-items: center; 
         align-items: flex-start;
         justify-content: center;
     } 
