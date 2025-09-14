@@ -151,13 +151,14 @@ margin-top: 1em;
     margin-top: auto;
     margin-bottom: auto;
 } 
-.certifications{      
-    margin-top: 3em; 
-    margin-bottom: 3em; 
-    font-family: 'Sriracha', cursive;    
-    color: #E5E5E5; 
-    line-height: 1em;  
-      
+.certifications li {
+    display: flex;
+    align-items: center;
+    margin-top: 1em; /* optionnel si tu veux de l'espace entre chaque ligne */
+}
+
+.certifications li img {
+    margin-right: 15px; /* même espace que dans la section contacts */
 }
 .dowload, .dowload a{
     display: flex;
@@ -255,6 +256,8 @@ margin-top: 1em;
     column-count: 3;   
     column-gap: 1em;
 }
+
+
 .liste-competences, .techno {
         display: flex;
         justify-content: space-around;
@@ -263,6 +266,22 @@ margin-top: 1em;
         justify-content: center;
     } 
    
+.techno li {
+  display: flex;
+  flex-direction: column;  /* empile image + texte verticalement */
+  align-items: center;     /* centre horizontalement dans la colonne */
+  text-align: center;      /* centre le texte sous l'image */
+  margin-bottom: 1em;
+  break-inside: avoid;     /* évite qu'un item soit coupé entre colonnes */
+  -webkit-column-break-inside: avoid;
+}
+
+.techno li span {
+  margin-top: 6px;
+  font-family: 'Sriracha', cursive;
+  font-size: 0.9rem;
+  color: #363A4E;
+} 
 
 .techno img{
     min-width: 48px;
